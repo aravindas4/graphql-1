@@ -1,0 +1,12 @@
+Django==3.2
+
+Faker==13.3.4
+graphene==2.1.9
+graphene-django==2.15.0
+
+ipython==8.2.0
+
+pymongo==4.1.0
+PyMySQL==1.0.2
+
+rich==12.2.0
