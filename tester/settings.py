@@ -113,8 +113,8 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 GRAPHENE = {
-  'SCHEMA': 'graph.schema.schema'
-  }
+    'SCHEMA': 'graph.schema.schema'
+}
 
 
 # Internationalization
