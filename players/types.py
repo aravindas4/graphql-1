@@ -13,7 +13,7 @@ class UserType(DjangoObjectType):
 class PlayerType(DjangoObjectType):
     class Meta:
         model = Player
-        fields = ("id", "picture", "gender", "birthday", "motto", "board")
+        fields = ("id", "picture", "gender", "motto", "board")
 
 
 class PlayerBoardType(DjangoObjectType):
