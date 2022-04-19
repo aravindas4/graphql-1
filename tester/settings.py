@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'tester.wsgi.application'
 DATABASES = {  
     'default': {  
         'ENGINE': 'django.db.backends.mysql',  
-        'NAME': 'tester',  
+        'NAME': 'quotes',  
         'USER': 'root',  
-        'PASSWORD': 'startmeup',  
-        'HOST': '127.0.0.1',  
+        'PASSWORD': 'mauFJcuf5dhRMQrjj',  
+        'HOST': 'db',  
         'PORT': '3306',  
         'OPTIONS': {  
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  

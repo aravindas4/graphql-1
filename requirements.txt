@@ -20,3 +20,4 @@ coverage==6.3.2
 mixer==7.2.2
 snapshottest==0.6.0
 django-filter==21.1
+cryptography==36.0.2
