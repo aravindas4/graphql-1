@@ -1,4 +1,5 @@
 import graphene
+from graphene_django.filter import DjangoFilterConnectionField
 
 from .types import PlayerType, PlayerBoardType
 from .models import Player, PlayerBoard
@@ -7,6 +8,7 @@ from .mutations import EditPlayerMutation, CreatePlayerMutation
 
 class Query(graphene.ObjectType):
     players = graphene.List(PlayerType)
+    # players = DjangoFilterConnectionField(PlayerType)
     player = graphene.Field(PlayerType, player_id=graphene.Int())
     player_board = graphene.List(PlayerBoardType)
 
