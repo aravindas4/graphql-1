@@ -1,11 +1,12 @@
 import players.schema
 import games.schema
+import book.schema
 import graphene
 
 
 class Query(
     players.schema.Query, 
-    # games.schema.Query, 
+    book.schema.Query, 
     graphene.ObjectType
 ):
     pass 
@@ -13,7 +14,7 @@ class Query(
 
 class Mutation(
     players.schema.Mutation, 
-    # games.schema.Mutation, 
+    book.schema.Mutation, 
     graphene.ObjectType
 ):
     pass 

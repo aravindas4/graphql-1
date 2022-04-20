@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'graph',
     'players',
     'games',
+    'book',
 ]
 
 MIDDLEWARE = [
