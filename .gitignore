@@ -300,3 +300,4 @@ config/secrets/
 .terraform.*
 .terraform/
 terraform.tfstate*
+.coverage
