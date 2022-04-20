@@ -12,10 +12,9 @@ snapshots['PlayerSnapshotCase::test_api_players_snapshot 1'] = {
         'players': [
             {
                 'gender': None,
-                'motto': '''Staff analysis I read. Myself he determine respond once field.
-Sell throughout look road PM day especially natural. Paper cause heavy serious teacher guy picture.''',
-                'picture': '''Professional forward play interview involve seven huge become. During wide sister good college be business. Would spend south may.
-Later character news fly without. Side resource data rich.'''
+                'motto': '''Task hard too star relate oil. Time imagine number crime.
+Page statement form between ball decision. Hold himself only.''',
+                'picture': 'Remember history type education page ground hot. Trial window very become current notice new image.'
             }
         ]
     }
