@@ -67,6 +67,22 @@ services:
       retries: 3
       # start_period: 30s
 
+  clickhouse_server:
+    image: altinity/clickhouse-server:21.8.10.1.altinitystable
+    ports:
+    - "8123:8123"
+    volumes:
+    - ./clickhouse_database:/var/lib/clickhouse
+    networks:
+        - clickhouse_network
+
 volumes:
   db:
     driver: local
+
+networks:
+  clickhouse_network:
+      driver: bridge
+      ipam:
+          config:
+              - subnet: 10.222.1.0/24
