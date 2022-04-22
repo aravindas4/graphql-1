@@ -29,6 +29,8 @@ services:
       - db
     volumes:
       - .:/app
+    networks:
+      - clickhouse_network
 
   postgres:
     image: postgres:9.6
@@ -74,7 +76,7 @@ services:
     volumes:
     - ./clickhouse_database:/var/lib/clickhouse
     networks:
-        - clickhouse_network
+      - clickhouse_network
 
 volumes:
   db:
@@ -82,7 +84,7 @@ volumes:
 
 networks:
   clickhouse_network:
-      driver: bridge
-      ipam:
-          config:
-              - subnet: 10.222.1.0/24
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.222.1.0/24
